@@ -1,20 +1,161 @@
 <!DOCTYPE html>
 <html>
-   <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Les Pros de l'Informatique</title>
-        <style>
-            @import url('https://unpkg.com/reset-css@5.0.1/reset.css');
-            *{
-                background-color: aquamarine; /* Couleur à modifier */
-            }
-        </style>
-   </head>  
-   <body>
-        <header>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Les Pros de l'Informatique</title>
+    <style>
+        @import url('https://unpkg.com/reset-css@5.0.1/reset.css');
+        /* Couleur de l'arrière-plan à déterminer */
+
+        body {
+            padding: 30px;
+        }
+
+        .title {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        li {
+            float: left;
+            margin-left: 10px;
+        }
+
+        li a:hover {
+            background-color: red;
+            color: white;
+            transition: 0, 25s;
+            cursor: pointer;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+            padding: 8px;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        a.otherlink {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+
+        a.otherlink:hover {
+            background-color: red;
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            transition: 0, 25s;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .event {
+            border: 2px solid #333;
+            color: black;
+            margin-top: 20px;
+        }
+
+        .paragraphe {
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+
+        h2 {
+            color: red;
+            font-size: 20px;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+
+        .white {
+            margin: 10px
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="title">
             <h1>Les Pros de l'Informatique</h1>
-            <h2>Notre pub</h2>
-        </header>
-   </body>
+        </div>
+        <nav class="navheader">
+            <ul>
+                <li>
+                    <a href="pub.html">Pub & Echange de pub</a>
+                </li>
+                <li>
+                    <a href="event.html">Events</a>
+                </li>
+                <li>
+                    <a href="classement.html">Classements</a>
+                </li>
+                <li>
+                    <a href="projets.html">Projets partenaires</a>
+                </li>
+                <li>
+                    <a href="membres.html">Recrutement & Staff</a>
+                </li>
+                <li>
+                    <a href="widget_server.html">Widget du serveur</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <section>
+        <div class="boites">
+            <div class="event">
+                <br>
+                <p class="paragraphe"> >> Notre pub</p>
+                <!-- Section changeante  -->
+                <p class="paragraphe">
+                    💻︱Les pros de la Techno </p>
+                <p class="paragraphe">
+                    >> Un serveur qui vient d'ouvrir </p>
+                <p class="paragraphe">
+                    💻︱Salons pour parler de tout et de rien et surtout d'informatiques</p>
+                <p class="paragraphe">
+                    💻︱Animations à venir</p>
+                <p class="paragraphe">
+                    💻︱ Salons d'entraides sur pleins de langages et de sujets</p>
+                <p class="paragraphe">
+                    💻︱Partage tes projets
+                <p class="paragraphe">
+                    🎈︱ Tu peux même chercher des personnes pour jouer aux jeux vidéos</p>
+                <p class="paragraphe">
+                <div class="white"></div>
+                <a href="https://discord.gg/r6Q2RAtXxC" class="otherlink"> >> Ton lien d'accès </a>
+                </p>
+                <div class="white"></div>
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>
