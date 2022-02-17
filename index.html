@@ -10,11 +10,29 @@
         @import url('https://unpkg.com/reset-css@5.0.1/reset.css');
         /* Couleur de l'arrière-plan à déterminer */
 
+        body {
+            padding: 30px;
+        }
+
+        .title {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
         ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
             background-color: #333;
+            color: #fff;
         }
 
         li {
@@ -24,18 +42,69 @@
 
         li a:hover {
             background-color: red;
+            color: white;
+            transition: 0, 25s;
+            cursor: pointer;
         }
 
-        ul li a{
+        ul li a {
+            text-decoration: none;
+            color: black;
+            padding: 8px;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        a.otherlink {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+
+        a.otherlink:hover{
+            background-color: red;
             text-decoration: none;
             color: white;
+            cursor: pointer;
+            padding: 10px;
+            transition: 0,25s;
         }
+
+        p{
+            font-size: 20px;
+        }
+
+        .event{
+            border: 2px solid #333;
+            color: black;
+            margin-top: 20px;
+        }
+
+        .paragraphe{
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+
+        h2{
+            color: red;
+            font-size: 20px;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+
+        .white{
+            margin: 10px
+        }
+
     </style>
 </head>
 
 <body>
     <header>
-        <h1>Les Pros de l'Informatique</h1>
+        <div class="title">
+            <h1>Les Pros de l'Informatique</h1>
+        </div>
         <nav class="navheader">
             <ul>
                 <li>
@@ -56,35 +125,38 @@
             </ul>
         </nav>
     </header>
-
-    <body>
-        <div class="boite">
+    <br>
+    <section>
+        <div class="boites">
             <div class="event">
-                <a href="event.html"><span class="material-icons-outlined">
-                        event
-                    </span>Accéder à la page</a>
+                <br>
+                <p class="paragraphe"> >> Prochaine grand event</p>
                 <!-- Section changeante  -->
-                <p>Prochaine grand Event</p>
-                <h3>LifeConf</h3>
-                <p>L'event commencera le<time>2022-04-04</time></p>
-                <p>Le but du projet est, sur un temps précis, de créer un programme qui respecte un thème dans le
+               <h2> >> LifeConf</h2>
+                <p class="paragraphe">L'event commencera le 4 avril 2022 !</p>
+                <p class="paragraphe">Le but du projet est, sur un temps précis, de créer un programme qui respecte un thème dans le
                     langage que vous voulez et par équipe de 3 maximum (vous pouvez aussi être tout seuls). Ce défi
                     entre développeurs est donc principalement de l'amusement mais les 3 premiers où l'équipe des 3
-                    premiers gagnera des lots entre eux à partager.
-
-                    Des channels entre les équipes seront mis à votre disposition. Vous n'êtes pas obligés de faire cela
+                    premiers gagnera des lots entre eux à partager.</p>
+                    <br>
+                <p class="paragraphe"> Des channels entre les équipes seront mis à votre disposition. Vous n'êtes pas obligés de faire cela
                     avec des personnes que vous connaissez. Lors du commencement du défi vous aurez 2 semaines pour
                     coder sur le thème qui sera donné sur le discord, vous êtes libre de choisir ce que vous voulez.
-                    (Site, Application, programme, etc...)
-
-                    Lors de la fin du défi, des juges recevront vos codes et mettront une note qui définira donc les
-                    gagnants. Les codes seront anonymes pour éviter toutes triches.
+                    (Site, Application, programme, etc...)</p>
+                    <br>
+                <p class="paragraphe"> Lors de la fin du défi, des juges recevront vos codes et mettront une note qui définira donc les
+                    gagnants. Les codes seront anonymes pour éviter toutes triches.</p>
+                    <br>
+                <p class="paragraphe">Organisateur : @Riqz#2807 (Voir sur le serveur Discord)</p>
                 </p>
-                <a href="https://discord.com/invite/yfCft52Un8">Lien du serveur Discord</a>
-                <a href="https://discord.gg/BuY4YED22a?event=943504262682521601">Lien </a>
+                <br>
+                <a class="otherlink" href="https://discord.com/invite/yfCft52Un8">Lien du serveur Discord</a>
+                <a class="otherlink" href="https://discord.gg/BuY4YED22a?event=943504262682521601">Lien vers le site </a>
+                <a class="otherlink" href="events/lifeconf.html">Accéder à la page </a>
+                <div class="white"></div>
             </div>
         </div>
-    </body>
+    </section>
 </body>
 
 </html>
