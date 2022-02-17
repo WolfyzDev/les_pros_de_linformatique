@@ -4,19 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Les Pros de l'Informatique</title>
     <style>
         @import url('https://unpkg.com/reset-css@5.0.1/reset.css');
-
-        * {
-            background-color: rgb(21, 87, 185);
-            /* Couleur à modifier */
-        }
-
-        ui li {
-            border: 2px solid #fff;
-            color: white;
-        }
+        /* Couleur de l'arrière-plan à déterminer */
 
         .boite {
             border: 2px solid #fff;
@@ -27,6 +19,7 @@
         ul li a {
             text-decoration: none;
             color: #fff;
+            border: 2px solid #fff
         }
     </style>
 </head>
@@ -58,7 +51,9 @@
     <body>
         <div class="boite">
             <div class="event">
-                <a href="event.html">Accéder à la page</a>
+                <a href="event.html"><span class="material-icons-outlined">
+                        event
+                    </span>Accéder à la page</a>
                 <!-- Section changeante  -->
                 <p>Prochaine grand Event</p>
                 <h3>LifeConf</h3>
