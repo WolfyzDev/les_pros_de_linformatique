@@ -10,17 +10,25 @@
         @import url('https://unpkg.com/reset-css@5.0.1/reset.css');
         /* Couleur de l'arrière-plan à déterminer */
 
-        .boite {
-            border: 2px solid #fff;
-            color: white;
-            display: inline;
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
         }
 
-        ul li a {
-            text-decoration: none;
-            color: #fff;
-            border: 2px solid #fff
+        li {
+            float: left;
         }
+
+        li a:hover {
+            background-color: red;
+        }
+
+        /* li.dropdown {
+            display: inline-block;
+        } */
     </style>
 </head>
 
