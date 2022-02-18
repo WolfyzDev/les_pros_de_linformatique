@@ -169,11 +169,238 @@
         <div class="boites">
             <div class="ressources">
                 <br>
-                <p class="paragraphe"> >> Les Projets que nous soutenous</p>
+                <p class="paragraphe"> >> Les ressources </p>
+                <p class="paragraphe">Voici des ressources qui vont vous aider. Elles sont à retoruver sur le serveur</p>
                 <!-- Section changeante  -->
-
                 <div class="white"></div>
             </div>
+            <div class="ressources">
+                <br>
+                <p class="paragraphe"> > Ressource HTML, CSS & JS </p>
+                <br>
+                <table> 
+                    <tr class="L1">
+                        <th class="C1">
+                            <p>Les positions en CSS</p>
+                        </th>
+                        <th class="C2">
+                            <p>La position relative : L'élément ayant cette position est dans le flux.</p>
+                            <p>Les valeurs que l'on lui donne avec top left bottom ou right décale l'élément par rapport à lui même.</p>
+                            <br> 
+                            <p>La position absolute : L'élément ayant cette position n'est pas dans le flux.</p>
+                            <p>Les valeurs que l'on lui donne avec top left bottom ou right positionne l'élément depuis son bord et le bord de son plus proche parent positionné(right : 10px; positionnera l'élément absolute à 10px d'écart entre le bord droit de son parent positionné et son bord droit)</p>
+                            <br>
+                            <p>La position fixed : L'élément ayant cette position n'est pas dans le flux.</p>
+                            <p>Les valeurs que l'on lui donne avec top left bottom ou right positionne l'élément depuis son bord et le bord du viewport (la zone d'affichage de votre page)(right : 10px; positionnera l'élément absolute à 10px d'écart entre le bord droit de sa page son bord</p>
+                            <p>droit. Il restera donc fixer a cette position sur la zone d'affichage même si un scroll est effectué).
+                            <br>
+                            <p>La position sticky difficilement expliquable : allez vous informer ici : https://developer.mozilla.org/fr/docs/Web/CSS/position en très gros résumé c'est un mélange entre la position relative et la position fixed</p>
+                            <br>
+                            <p>(Ressource issu du serveur de Graven, lien sur le serveur)</p>
+                        </th>
+                    </tr>
+                    <tr class="L2">
+                        <th class="C1">
+                            <p>Propriété display sur 'div'</p>
+                        </th>
+                        <th class="C2">
+                            <p>Propriété display  sur les div</p>
+                            <p>Display inline, inline-block et block, sur plusieurs div par exemple :</p>
+                            <p>- display: inline -> va aligner horizontalement les div à la suite d'autre éléments, mais impossible de jouer sur le height ou le width ou le margin de ces div. (padding fonctionne)</p>
+                            <p>- display: inline-block -> va aligner horizontalement les div, et possibilité de jouer sur le height ou le width margin et padding de ces div</p>
+                            <p>- display: block -> va forcément passer à la ligne chaque div, et possibilité de jouer sur le height ou le width margin et padding de ces div</p>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            <div class="ressources">
+                <br>
+                <p class="paragraphe"> > Ressource PHP, DB et Backend</p>
+                <br>
+                <table>
+                    <tr class="L1">
+                        <th class="C1">
+                            Exécuter des scripts PHP en local
+                        </th>
+                        <th class="C2">
+                            <p>Pour tester son code PHP sans hébergement, il y a deux solutions :</p>
+                            <br>
+                            <p>1️⃣ Utiliser une plateforme qui exécuter localement les scripts PHP : Wamp ou Laragon par exemple. Ces outils peuvent aussi héberger localement des bases de données, etc ...</p>
+                            <p>Il suffit ensuite de placer les fichiers PHP dans un répertoire spécifique qui se nomme en général www</p>
+                            <br>
+                            <p>2️⃣ Télécharger PHP sur le site ci-dessous. Il suffit de désarchiver l'archive et de la placer les fichiers dans un dossier sur le disque dur. Ensuite, on rajoute le chemin d'accès au PATH.</p>
+                            <p>Pour vérifier que cela fonctionne, ouvrez un terminal et entrez php, tout simplement. Pour exécuter un script, php suivi du chemin d'accès du fichier php.</p>
+                        </th>
+                    </tr> 
+                </table>
+            </div>
+            <div class="ressources">
+                <br>
+                <p class="paragraphe"> > Ressource Hébergement, VPS, gestion de site Web et GIT</p>
+                <br>
+                <table>
+                    <tr class="L1">
+                        <th class="C1">
+                            <p>Laragon</p>
+                        </th>
+                        <th class="C2">
+                            <p>Wamp, Mamp, Xampp... Il existe une multitude de serveur,</p>
+                            Toutefois, Laragon est le meilleur et recommande de passer dessus,</p>
+                            Pourquoi me diriez-vous utiliser Laragon plutôt qu'un autre?</p>
+                            <p>Voilà, car:
+                            <p>- Il ne bug pas une fois sur deux à l'installation</p>
+                            <p>- Il possède un « mail catcher ».</p>
+                            <p>- La configuration du « mail sender » est ultra-simple avec Gmail.</p>
+                            <p>- Il permet de choisir entre Apache/ Nginx.</p>
+                            <p>- Il est beaucoup plus simple a appréhender.</p>
+                            <p>- Il permet de plus facilement switch de version de PHP.</p>
+                            <p>- Il integre Redis, Memcached, Node.Js (w/npm et yarn), Git, MySQL (mais permet de switch entre les versions).</p>
+                            <p>- Il vient avec CMDer.</p>
+                            <p>- Il integre des outils comme HeidiSQL mais PMA est facilement installable.</p>
+                            <p>- Il intègre PostrgeSQL, MongoDB.</p>
+                            <p>- Il créé automatiquement des Virtuals Hosts</p>
+                            <p>- Il offre la possibilitée d'utiliser le protocole HTTPS ultra facilement</p>
+                            <p>- Il permet de partager facilement ses sites</p>
+                            <p>- Il intégre directement des outils comme Laravel / Symfony / WordPress</p>
+                            <p>- Il est très léger, peut être portable, est indépendant, rapide, facilement réglable.</p>
+                            <p>- Et j'en passe, la liste est longue...</p>
+                            <p>https://laragon.org/download</p>
+                            <br> 
+                            <p>(Ressource issus du serveur de Graven (https://discord.gg/s66vMDVE) )</p>
+                        </th>
+                    </tr>
+                    <tr class="L2">
+                        <th class="C1">
+                            <p>Utilisation de Git</p>
+                        </th>
+                        <th class="C2">
+                            <p>Vidéo | Doctring - Publier son code sur GitHub</p>
+                            <p>https://youtu.be/76hFN6kcV04</p>
+                            <p>Video | Graven - Publier + les branches</p>
+                            <p>https://youtu.be/gp_k0UVOYMw</p>
+                            <p class="paragraphe">Ressource plus complète à venir</p>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            <div class="ressources">
+                <br>
+                <p class="paragraphe"> >> Ressources Python </p>
+                <br>
+                <table>
+                    <tr class="L1">
+                        <th class="C1">
+                            <p> Problème d'installation avec Python : Python n'est pas dans PATH</p>
+                        </th>
+                        <th class="C2">
+                            <p>Un des problèmes récurrents lors de l'installation de Python est que Python n'est pas intégré au PATH. C'est fait généralement automatiquement mais il arrive que ce ne soit pas le cas. Voici comment faire.</p>
+                            <br>
+                            <p>Comment ajouter Python au PATH:</p>
+                            <br>
+                            <p>Étape 1:</p>
+                            <p>Faire</p>
+                            <p>win</p>
+                            <p>puis chercher python puis cliquer sur désinstaller, ça va ouvrir Programmes et fonctionnalité</p>
+                            <br>
+                            <p>Étape 2:</p>
+                            <p>Une fois dans</p>
+                            <p>Programmes et fonctionnalité</p>
+                            <p>chercher python puis clique droit, modifier</p>
+                            <br>
+                            <p>Étape 3:</p>
+                            <p>On se retrouve dans un menu avec différents choix Modify,repair,uninstall , choisir Modify puisnexten bas à droite</p>
+                            <br>
+                            <p>Étape finale:</p>
+                            <p>Nous voilà dans le dernier menu, parmis les différents choix choisir Add python to environn.. et enfin install</p>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            <div class="ressources">
+                <br>
+                <p class="paragraphe"> >> Ressource Java </p>
+                <br>
+                <p class="paragraphe">Pas encore de ressource </p>
+                <br>
+            </div>
+            <div class="ressources">
+                <br>
+                <p class="paragraphe"> >> Ressource C, C# et C++ </p>
+                <br>
+                <p class="paragraphe">Pas encore de ressource </p>
+                <br>
+            </div>
+            <div class="ressources">
+                <br>
+                <p class="paragraphe"> >> Ressource App Discord, serveur et bots</p>
+                <br>
+                <p class="paragraphe">Pas encore de ressource </p>
+                <br>
+            </div>
+            <div class="ressources">
+                <br>
+                <p class="paragraphe"> >> Ressource Linux & OS </p>
+                <br>
+                <p class="paragraphe">Pas encore de ressource </p>
+                <br>
+            </div>
+            <div class="ressources">
+                <br>
+                <p class="paragraphe"> >> Ressource Setup ordi & Raspberry</p>
+                <br>
+                <p class="paragraphe">Pas encore de ressource </p>
+                <br>
+            </div>
+            <div class="ressources">
+                <br>
+                <p class="paragraphe"> >> Ressource Apps mobiles & Kotlin</p>
+                <br>
+                <p class="paragraphe">Pas encore de ressource </p>
+                <br>
+            </div>
+            <div class="ressources">
+                <br>
+                <p class="paragraphe"> >> Ressource Création de jeu vidéo, LUA, moteur de jeu et animation</p>
+                <br>
+                <p class="paragraphe">Pas encore de ressource </p>
+                <br>
+            </div>
+            <div class="ressources">
+                <br>
+                <p class="paragraphe"> >> Ressource Cybersécurité</p>
+                <br>
+               <table>
+                    <tr class="L1">
+                        <th class="C1">
+                            <p>Kali Linux</p>
+                        </th>
+                        <th class="C2">
+                        
+                            <p>Kali Linux est une distribution très connu pour être la distribution Linux sur la cybersécurité. Elle possède entre autres un noyau modifié pour les besoins des tests d'intrusion, un dépôt de programmes propres avec un nombre de programmes restreints pour en assurer la sécurité, le réseau est désactivé par défaut, etc. Tout cela fait que, des choses très simples à faire avec d'autres distributions peuvent être bien plus délicates à faire avec Kali Linux. Installer Steam par exemple ne marchera pas et risque même de casser le système vous forçant à le réinstaller.</p>
+
+                            <p>Une distribution spécifique</p>
+                            <p>Kali Linux n'a pas été conçue comme une distribution à utiliser au quotidien pour naviguer sur Internet ou faire de la bureautique. Elle n'a pas non plus été conçue pour être accessible aux débutants.</p>
+                            <br>
+                            <p>Enfin, Kali Linux possède des outils qui, mal utilisés, peuvent être destructeurs et vous mettre en danger personnellement voire légalement si vous utilisez ses outils sur un réseau pour lequel vous n'avez pas reçu d'autorisation préalable : l'accès et le maintient frauduleux dans un système de traitement automatisé de données sont punis par la loi de prison allant jusqu'à 5 ans et d'amende allant jusqu'à 150 000€.</p>
+                            <br>
+                            <p>Et les pros ?</p>
+                            <p>Très peu d'hackeur éthique professionnel qui travaille dans le mileu utilisent Kali Linux. Ils préfèrent d'autres distributions comme lfs ou gentoo, sur laquelles ils installent les outils qu'ils utilisent vraiment.</p>
+                            <br>
+                            <p>Alors, quoi utiliser ?</p>
+                            <p>Il est vrai que les hackeurs éthique utilisent des distributions Linux dans presque tout les cas. Toutefois, il vaut mieux se tourner (au moins pour commencer) vers des distribs plus classiques comme Ubuntu ou Debian. Pourquoi ? Vous pourrez vous habituez au terminal (les pentesteurs passent le plus claire dans le temps dans un terminal en plus de Google) et vous ne serez pas tenté par les outils sans savoir comment les utiliser.</p>
+                            <br>
+                            <p>(Ressource issu en partie du serveur de Graven)</p>
+                        </th>
+                    </tr>
+                </table> 
+            </div>
+            <div class="ressources">
+                <br>
+                <p class="paragraphe"> >> Ressource Autres</p>
+                <br>
+                <p class="paragraphe">Pas encore de ressource </p>
+                <br>
+            </div> 
         </div>
     </section>
 </body>
@@ -181,8 +408,15 @@
 </html>
 
 
-
-Tableau
+<!--
+<div class="ressources">
+    <br>
+    <p class="paragraphe"> >> Ressource </p>
+    <br>
+    <p class="paragraphe">Pas encore de ressource </p>
+    <br>
+</div> 
+-->
 <tr class="L1">
     <th class="C1">
         <p></p>
